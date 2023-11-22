@@ -2,6 +2,8 @@ package hengerprogram;
 
 public class Cso extends TomorHenger{
     
+    private double falvastagsag;
+    
     public Cso(double r, double m, double falvastagasag) {
         super(r, m);
     }
@@ -26,7 +28,7 @@ public class Cso extends TomorHenger{
 
     @Override
     public String toString() {
-        return "Cso{" + '}';
+        return "Cso{" + falvastagsag + '}';
     }
 
 }

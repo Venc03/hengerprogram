@@ -2,6 +2,8 @@ package hengerprogram;
 
 public class TomorHenger extends Henger {
     
+    private double fajsuly;
+    
     public TomorHenger(double r, double m, double fajsuly) {
         super(r, m);
     }
@@ -24,7 +26,7 @@ public class TomorHenger extends Henger {
 
     @Override
     public String toString() {
-        return "TomorHenger{" + '}';
+        return "TomorHenger{" + fajsuly + '}';
     }
     
     

@@ -1,6 +1,6 @@
 package hengerprogram;
 public class Henger {
-    private int hengerDarab;
+    private static int hengerDarab;
     private double sugar, magassag;
     
     public Henger(double r, double m){
